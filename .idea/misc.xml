@@ -7,10 +7,11 @@
         <entry key="..\:/AndroidDemos/work_2/app/src/main/res/layout/fragment_body_nav.xml" value="0.1125" />
         <entry key="..\:/AndroidDemos/work_2/app/src/main/res/layout/fragment_bottom_nav.xml" value="0.33" />
         <entry key="..\:/AndroidDemos/work_2/app/src/main/res/layout/fragment_discovery_fragment.xml" value="0.18802083333333333" />
-        <entry key="..\:/AndroidDemos/work_2/app/src/main/res/layout/fragment_me_fragment.xml" value="0.18802083333333333" />
+        <entry key="..\:/AndroidDemos/work_2/app/src/main/res/layout/fragment_me_fragment.xml" value="0.25" />
         <entry key="..\:/AndroidDemos/work_2/app/src/main/res/layout/fragment_top_nav.xml" value="0.36614583333333334" />
         <entry key="..\:/AndroidDemos/work_2/app/src/main/res/layout/fragment_toucher_fragment.xml" value="0.36614583333333334" />
-        <entry key="..\:/AndroidDemos/work_2/app/src/main/res/layout/fragment_wechat_fragment.xml" value="0.18802083333333333" />
+        <entry key="..\:/AndroidDemos/work_2/app/src/main/res/layout/fragment_wechat_fragment.xml" value="0.1" />
+        <entry key="..\:/AndroidDemos/work_2/app/src/main/res/layout/toucher_item.xml" value="0.25364583333333335" />
         <entry key="..\:/AndroidDemos/work_2/app/src/main/res/layout/wechat_item.xml" value="0.358695652173913" />
       </map>
     </option>

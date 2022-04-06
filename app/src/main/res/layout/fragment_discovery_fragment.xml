@@ -6,11 +6,10 @@
     tools:context=".Discovery_fragment">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclers"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="DISCOVERY"
-        android:textSize="100sp"
-        />
-
+        android:layout_height="wrap_content"
+        android:paddingBottom="1dp"
+        tools:listitem="@layout/toucher_item" />
 </FrameLayout>
