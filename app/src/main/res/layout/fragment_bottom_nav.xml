@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".BottomNav"
+
+    tools:gravity="bottom">
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:layout_weight="1"
+        android:background="#EDEAEA">
+
+        <ImageView
+            android:id="@+id/image_1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:onClick="onclick"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:scaleX="0.7"
+            android:scaleY="0.7"
+            android:src="@mipmap/wechat" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/image_1"
+            android:gravity="center_horizontal"
+            android:text="微信" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:layout_weight="1"
+        android:background="#EDEAEA">
+
+        <ImageView
+            android:id="@+id/image_2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:onClick="onclick"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:scaleX="0.7"
+            android:scaleY="0.7"
+            android:src="@mipmap/touchers" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/image_2"
+            android:gravity="center_horizontal"
+            android:text="联系人" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:layout_weight="1"
+        android:background="#EDEAEA">
+
+        <ImageView
+            android:id="@+id/image_3"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:onClick="onclick"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:scaleX="0.7"
+            android:scaleY="0.7"
+            android:src="@mipmap/discovery" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/image_3"
+            android:gravity="center_horizontal"
+            android:text="发现" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:layout_weight="1"
+        android:background="#EDEAEA">
+
+        <ImageView
+            android:id="@+id/image_4"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:onClick="onclick"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:scaleX="0.7"
+            android:scaleY="0.7"
+            android:src="@mipmap/me" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/image_4"
+            android:gravity="center_horizontal"
+            android:text="我" />
+    </RelativeLayout>
+
+
+</LinearLayout>
